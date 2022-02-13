@@ -1,6 +1,7 @@
 # osutil  
 now you can use linux command cd, mkdir, rm, mv, cp, ls, echo in python  
 it's modified based on other repository  
+it requires packages os, shutil, platform, tarfile, hashlib
 
 does_this_exist(target)　　　　//check if the target is a diretory or a file  
 　　　　　　　　　　　　　　//If it is, return True, else, return None  
